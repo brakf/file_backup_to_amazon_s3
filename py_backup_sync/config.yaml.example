@@ -1,0 +1,9 @@
+---
+BackupBucket: bucketname
+BasePath: "path_to_files/"
+AWSAccessKey: abc
+AWSSecretKey: def
+FilesToBackup:
+- file1.bak
+- file2.bak
+

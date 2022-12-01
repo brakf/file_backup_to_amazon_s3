@@ -1,0 +1,10 @@
+*/.venv/*
+
+*/*.log
+
+py_backup_sync/config.yaml
+
+*/.terraform/*
+
+tf_backup_bucket/prod.tfvars
+tf_backup_bucket/terraform.tfstate*
