@@ -1,0 +1,19 @@
+---
+BackupBucket: protex-sql-backup20221130160229956400000001
+BasePath: "../test_data/"
+AWSAccessKey:
+AWSSecretKey:
+FilesToBackup:
+- wfUserDocuments_Protex.bak
+- wfUserDocuments_MatraMAXX.bak
+- wfUserDocuments_ITS_Beteiligungs_GmbH.bak
+- wfUserDocuments_IPM.bak
+- wfUserDocuments_BaUer.bak
+- wfUser_Protex.bak
+- wfUser_MatraMAXX.bak
+- wfUser_ITS_Beteiligungs_GmbH.bak
+- wfUser_IPM.bak
+- wfUser_BaUer.bak
+- wfSystem.bak
+- wfGlobal.bak
+- master.bak
