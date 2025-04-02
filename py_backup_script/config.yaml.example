@@ -1,5 +1,6 @@
 ---
 BackupBucket: bucketname
+BucketFolder: "directory"
 BasePath: "path_to_files/"
 AWSAccessKey: abc
 AWSSecretKey: def
