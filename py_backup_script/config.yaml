@@ -1,6 +1,7 @@
 ---
 BackupBucket: protex-sql-backup20221130160229956400000001
 BasePath: "../test_data/"
+BucketFolder: "directory"
 AWSAccessKey:
 AWSSecretKey:
 FilesToBackup:
