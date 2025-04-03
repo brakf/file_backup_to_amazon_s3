@@ -30,7 +30,7 @@ for file in config.get("FilesToBackup", []):
     try: 
         path = os.path.join(config.get("BasePath", ""), file)
         filename_zip = file + ".zip"
-        path_zip = os.path.join(os.path.dirname(__file__), filename_zip)  
+        path_zip = os.path.join(os.path.dirname(__file__), filename_zip.replace("\\", "_").replace("/", "_")) 
         zip_time = time.time()
 
         # Test if file exists
